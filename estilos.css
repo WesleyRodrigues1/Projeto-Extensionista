@@ -234,3 +234,116 @@ img {
         font-size: 11px;
     }
 }
+
+/* Topicos###################################### */
+
+/* Estilo para a seção aritgos */
+.section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  /* Estilo para o título da seção */
+  .section h3 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilo para o container dos produtos (pizzas) */
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilo para os produtos (pizzas) */
+  .col-xl-3 {
+    box-sizing: border-box;
+    padding: 15px;
+    flex: 0 0 23%;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 15px;
+  }
+  
+  .product:hover {
+    transform: scale(1.05);
+  }
+  
+  .imagen-artigo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .titulo-artigo {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .product-rating {
+    color: #ffcc00;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .assunto-artigo-wrap {
+    margin-top: 10px;
+  }
+  
+  .assunto-artigo {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .assunto-artigo-old {
+    color: #999;
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+  
+  .botao-artigo {
+    margin-top: 20px;
+  }
+  
+  .botao-wrap {
+    margin-right: 10px;
+  }
+  
+  .botao {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .botao-link-artigo {
+    background-color: #007bff;
+    color: #fff;
+  }
+   
+  .product-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+  
+  .product-badge-new {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .product-badge-sale {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
