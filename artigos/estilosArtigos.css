@@ -1,0 +1,140 @@
+/* Reset de Estilos Padrão */
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333; 
+}
+
+/* cor de fundo menu */
+header { 
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: left;
+}
+
+
+
+/* MENU */
+nav {
+    background-color: #0074d9;
+    position: relative;
+    z-index: 2; /* Adicione um z-index para o menu */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+    position: relative; /* Adicione position: relative; para os itens do menu */
+}
+
+.menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu li:hover {
+    background-color: #3d1adb;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0074d9;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 10px 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #0056a0;
+
+}
+
+
+/* Estilo do conteúdo principal */
+.main-content {
+    max-width: 1000px; /* Largura máxima do conteúdo principal */
+    margin: 20px auto; /* Margens superior e inferior automáticas, margens laterais automáticas */
+    padding: 20px; /* Espaçamento interno do conteúdo principal */
+    background-color: white; /* Cor de fundo do conteúdo principal */
+    border-radius: 8px; /* Borda arredondada */
+}
+
+/* Estilo dos artigos dentro do conteúdo principal */
+article {
+    margin-bottom: 30px; /* Margem inferior dos artigos */
+}
+
+/* Estilo dos títulos dos artigos */
+h2 {
+    color: #444444; /* Cor dos títulos dos artigos */
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center; /* Alinhamento do texto ao centro no rodapé */
+    padding: 10px; /* Espaçamento interno do rodapé */
+    background-color: #007BFF; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+}
+
+/* Estilo do conteúdo dentro do rodapé */
+.footer-content {
+    max-width: 800px; /* Largura máxima do conteúdo do rodapé */
+    margin: 0 auto; /* Margens superior e inferior automáticas, margens laterais automáticas */
+}
