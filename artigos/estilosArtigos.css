@@ -138,3 +138,7 @@ footer {
     max-width: 800px; /* Largura máxima do conteúdo do rodapé */
     margin: 0 auto; /* Margens superior e inferior automáticas, margens laterais automáticas */
 }
+
+.title h2 {
+    font-size: 40px;
+}
