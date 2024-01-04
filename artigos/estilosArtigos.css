@@ -20,6 +20,13 @@ header {
     padding: 10px 0;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -142,4 +149,8 @@ footer {
 
 .title h2 {
     font-size: 40px;
+}
+
+.main-content{
+    margin-top: 65px;
 }

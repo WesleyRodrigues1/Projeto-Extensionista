@@ -20,6 +20,13 @@ header {
     padding: 10px 0;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -347,4 +354,7 @@ img {
     background-color: #dc3545;
     color: #fff;
   }
-  
+
+  #inicio{
+    margin-top: 65px;
+  }
