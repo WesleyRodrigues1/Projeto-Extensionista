@@ -155,3 +155,21 @@ footer {
     margin-top: 65px;
 }
 span{color: #0056a0;}
+
+ /* Estilo para o contêiner das colunas */
+ .col-container {
+    display: flex;
+    justify-content: space-between; /* Ajusta o espaçamento entre as colunas */
+}
+
+/* Estilo para cada coluna */
+.col {
+    width: 48%; /* Ajusta a largura das colunas conforme necessário */
+    box-sizing: border-box;
+    border: 2px solid #007BFF;
+    padding: 15px;
+   margin: 30px;
+}
+.text_title{
+    margin-left: 30px;
+}
